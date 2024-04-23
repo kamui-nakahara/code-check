@@ -1,0 +1,42 @@
+#login-panel{
+  width:50vw;
+  height:50vh;
+  margin-top:25vh;
+  margin-left:25vw;
+}
+
+#login-panel-header{
+  width:100%;
+  display:flex;
+}
+
+#login-panel-header > h2{
+  margin-left:40%;
+  width:60%;
+}
+
+#login-panel-header > button{
+  width:20%;
+}
+
+#login-panel > button{
+  margin-left:30%;
+  margin-right:30%;
+  width:40%;
+}
+
+#login-form{
+  display:flex;
+  margin-bottom:5%;
+}
+
+#login-form > h3{
+  width:40%;
+  text-align:center;
+}
+
+#login-form > div{
+  width:60%;
+  text-align:center;
+  padding-right:5%;
+}

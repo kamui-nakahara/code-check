@@ -1,0 +1,59 @@
+.centerpanel{
+  margin-left:1vh;
+  margin-right:1vh;
+  width:60vw;
+  margin-top:1vh;
+  height:96vh;
+  position:relative;
+}
+
+#centerpanel{
+  width:100%;
+  height:100%;
+  overflow:scroll;
+}
+
+#content-title > h2{
+  margin:0;
+}
+
+#content-title{
+  margin-top:3%;
+  text-align:center;
+  align-items:center;
+  overflow:hidden;
+  height:5%;
+}
+
+#content-block{
+  padding:0 20px;
+  border:solid rgba(0,0,0,0.3);
+  height:92%;
+  margin-left:5%;
+  width:90%;
+  overflow:scroll;
+}
+
+#content-text{
+  margin-top:20px;
+  white-space:pre-wrap;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+}
+#content-text > p{
+  margin:0;
+}
+
+#code-block{
+  border-radius:5px;
+  background:#777;
+  border:solid;
+}
+
+#code-block > div{
+  color:#fff;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+}
+
+#content-label{
+  font-size:25px;
+}
