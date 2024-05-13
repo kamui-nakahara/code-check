@@ -10,7 +10,7 @@ function CenterPanel(props:any){
   const [socketBuffer,setSocketBuffer]=useState<string>("");
   const socketRef=useRef<WebSocket>();
   const connect=()=>{
-    const websocket=new WebSocket("ws://shininomacbook-air.local:9001");
+    const websocket=new WebSocket("ws://10.19.8.2:9001");
     socketRef.current=websocket;
 
     const onMessage=(event:any)=>{

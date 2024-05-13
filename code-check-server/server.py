@@ -50,7 +50,7 @@ class Websocket_Server:
                     else:
                         with open(os.path.join(data["name"],"log.txt"),mode="r") as f:
                             recv_data["output"]=f.read()
-                        if recv_data["output"]!=d["output"]:
+                        if recv_data["output"]!=d["output"] and recv_data["output"]!=d["output"]+"\n":
                             flag=False
                             break
                 recv_data["correct"]=flag
@@ -73,7 +73,7 @@ def watching():
 
 content=json.load(open("content.json"))
 threading.Thread(target=watching).start()
-IP_ADDR="shininomacbook-air.local"
+IP_ADDR="10.19.8.2"
 PORT=9001
 ws_server=Websocket_Server(IP_ADDR,PORT)
 ws_server.run()
